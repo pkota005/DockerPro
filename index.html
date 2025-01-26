@@ -1,21 +1,89 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Republic Day Celebration</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f3f3f3;
+        }
+        header {
+            background: linear-gradient(to right, #ff9933, white, #138808);
+            padding: 20px 0;
+        }
+        header h1 {
+            color: #ffffff;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .flag {
+            display: inline-block;
+            margin: 30px auto;
+            border: 1px solid #000;
+        }
+        .flag .saffron {
+            background-color: #ff9933;
+            height: 50px;
+            width: 300px;
+        }
+        .flag .white {
+            background-color: white;
+            height: 50px;
+            width: 300px;
+            position: relative;
+        }
+        .flag .white::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            border: 3px solid #000088;
+        }
+        .flag .green {
+            background-color: #138808;
+            height: 50px;
+            width: 300px;
+        }
+        .message {
+            margin: 20px auto;
+            font-size: 1.5rem;
+            color: #333;
+        }
+        footer {
+            background-color: #ff9933;
+            padding: 10px 0;
+            color: white;
+            font-size: 0.9rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-	<h1 style="color: black; font-size: 40px;" align="center">Pavani is very much lazy</h1>
-	<h1 style="color: white; font-size: 40px;" align="center">Pinni always scolds her badly</h1>
-	<h1 style="color: lavandor; font-size: 40px;" align="center">babai always shop for her</h1>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+    <header>
+        <h1>Happy Republic Day!</h1>
+    </header>
+
+    <div class="flag">
+        <div class="saffron"></div>
+        <div class="white"></div>
+        <div class="green"></div>
+    </div>
+
+    <div class="message">
+        Let us honor the heroes who fought for our nation's freedom and celebrate the spirit of unity and patriotism. 🇮🇳
+    </div>
+
+    <footer>
+        &copy; 2025 Republic Day Tribute | Proud to be Indian
+    </footer>
 </body>
 </html>
-
